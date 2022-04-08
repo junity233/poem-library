@@ -20,6 +20,8 @@ private slots:
     void onNextPageButtonClicked();
     void onJumpToButtonClicked();
     void onComfireButtonClicked();
+    void onPoemTableViewDoubleClicked(const QModelIndex &);
+    void onPageNumSpinEditingFinished();
 
 private:
     Ui::MainWindowClass ui;
@@ -34,4 +36,5 @@ private:
     void Init();
     void UpdatePage();
     int pageSum() const;
+    void viewPoem(int pageIndex);
 };

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Poem Library</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -48,6 +48,21 @@
         </item>
         <item>
          <property name="text">
+          <string>元曲</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>楚辞</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>诗经</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
           <string>五代·花间集</string>
          </property>
         </item>
@@ -59,11 +74,6 @@
         <item>
          <property name="text">
           <string>论语</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>诗经</string>
          </property>
         </item>
         <item>
@@ -337,6 +347,38 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>tableView</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>MainWindowClass</receiver>
+   <slot>onPoemTableViewDoubleClicked(QModelIndex)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>286</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pageNumSpin</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindowClass</receiver>
+   <slot>onPageNumSpinEditingFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>513</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>onQueryButtonClicked()</slot>
@@ -345,5 +387,7 @@
   <slot>onNextPageButtonClicked()</slot>
   <slot>onJumpToButtonClicked()</slot>
   <slot>onComfireButtonClicked()</slot>
+  <slot>onPoemTableViewDoubleClicked(QModelIndex)</slot>
+  <slot>onPageNumSpinEditingFinished()</slot>
  </slots>
 </ui>

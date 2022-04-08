@@ -3,7 +3,7 @@
 PoemModel::PoemModel(QObject* parent):
     QAbstractTableModel(parent)
 {
-    setHeaderData(0, Qt::Horizontal, "title");
+
 }
 
 int PoemModel::rowCount(const QModelIndex& parent) const
@@ -60,6 +60,7 @@ Qt::ItemFlags PoemModel::flags(const QModelIndex& index) const
 void PoemModel::setPoems(QList<int> poemsID)
 {
     beginResetModel();
+
     poems.clear();
     for (int i : poemsID) {
         PoemDataManager::Poem res = PoemDataManager::SearchPoemByID(i);

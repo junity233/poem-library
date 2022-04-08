@@ -4,12 +4,12 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="MainWindow.cpp" line="66"/>
+        <location filename="MainWindow.cpp" line="84"/>
         <source>%1 records in total</source>
         <translation>共 %1 条记录</translation>
     </message>
     <message>
-        <location filename="MainWindow.cpp" line="79"/>
+        <location filename="MainWindow.cpp" line="83"/>
         <source>%1 / %2 Page</source>
         <translation>第%1 / %2 页</translation>
     </message>
@@ -47,97 +47,107 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="51"/>
+        <location filename="MainWindow.ui" line="66"/>
         <source>五代·花间集</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="56"/>
+        <location filename="MainWindow.ui" line="71"/>
         <source>五代·南唐二主词</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="61"/>
+        <location filename="MainWindow.ui" line="76"/>
         <source>论语</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="66"/>
+        <location filename="MainWindow.ui" line="61"/>
         <source>诗经</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="71"/>
+        <location filename="MainWindow.ui" line="51"/>
+        <source>元曲</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="MainWindow.ui" line="56"/>
+        <source>楚辞</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="MainWindow.ui" line="81"/>
         <source>大学</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="76"/>
+        <location filename="MainWindow.ui" line="86"/>
         <source>孟子</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="81"/>
+        <location filename="MainWindow.ui" line="91"/>
         <source>中庸</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="86"/>
+        <location filename="MainWindow.ui" line="96"/>
         <source>三字经</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="91"/>
+        <location filename="MainWindow.ui" line="101"/>
         <source>千字文</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="99"/>
+        <location filename="MainWindow.ui" line="109"/>
         <source>author</source>
         <translation>作者</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="106"/>
+        <location filename="MainWindow.ui" line="116"/>
         <source>content</source>
         <translation>内容</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="117"/>
+        <location filename="MainWindow.ui" line="127"/>
         <source>Query</source>
         <translation>查询</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="202"/>
+        <location filename="MainWindow.ui" line="212"/>
         <source>Poem number of per page:</source>
         <translation>每页显示的数量:</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="222"/>
+        <location filename="MainWindow.ui" line="232"/>
         <source>OK</source>
         <translation>确定</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="124"/>
+        <location filename="MainWindow.ui" line="134"/>
         <source>View</source>
         <translation>查看</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="155"/>
+        <location filename="MainWindow.ui" line="165"/>
         <source>Pervious Page</source>
         <translation>前一页</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="191"/>
+        <location filename="MainWindow.ui" line="201"/>
         <source>Next Page</source>
         <translation>后一页</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="184"/>
+        <location filename="MainWindow.ui" line="194"/>
         <source>Jump To:</source>
         <translation>跳转:</translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="168"/>
+        <location filename="MainWindow.ui" line="178"/>
         <source>Page </source>
         <translation>页 </translation>
     </message>
@@ -145,27 +155,31 @@
 <context>
     <name>PoemDialog</name>
     <message>
-        <location filename="PoemDialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>对话框</translation>
+        <translation type="vanished">对话框</translation>
     </message>
     <message>
-        <location filename="PoemDialog.ui" line="20"/>
+        <location filename="PoemDialog.ui" line="14"/>
+        <source>View Poem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="PoemDialog.ui" line="26"/>
         <source>Title</source>
         <translation>标题</translation>
     </message>
     <message>
-        <location filename="PoemDialog.ui" line="30"/>
+        <location filename="PoemDialog.ui" line="36"/>
         <source>Writer</source>
         <translation>作者</translation>
     </message>
     <message>
-        <location filename="PoemDialog.ui" line="40"/>
+        <location filename="PoemDialog.ui" line="46"/>
         <source>Type</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="PoemDialog.ui" line="50"/>
+        <location filename="PoemDialog.ui" line="56"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -174,14 +188,19 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="PoemDialog.cpp" line="29"/>
+        <location filename="PoemDialog.cpp" line="15"/>
         <source>Author:</source>
         <translation>作者:</translation>
     </message>
     <message>
-        <location filename="PoemDialog.cpp" line="30"/>
+        <location filename="PoemDialog.cpp" line="16"/>
         <source>Type:</source>
         <translation>类型:</translation>
+    </message>
+    <message>
+        <location filename="PoemDialog.cpp" line="17"/>
+        <source>&lt;div align=&quot;center&quot;&gt;&lt;font size=&quot;10&quot;&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/font&gt;&lt;/div&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

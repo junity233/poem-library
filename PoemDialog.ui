@@ -6,16 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
-    <height>416</height>
+    <width>666</width>
+    <height>559</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>View Poem</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
     <widget class="QLabel" name="titleLabel">
+     <property name="font">
+      <font>
+       <family>仿宋</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>Title</string>
      </property>
